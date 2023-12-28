@@ -201,6 +201,7 @@ const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
 const total = [bills[0] + tips[0] + bills[1] + tips[1] + bills[2] + tips[2]];
 console.log(bills, tips, total);
 */
+/*
 
 const angola = {
   populacao: 39393,
@@ -222,3 +223,17 @@ if (angola[interesse]) {
 } else {
   console.log("Não consiguimos achar a sua resposta");
 }
+*/
+console.log("1000".split("Ola"));
+const nomeDefault = (name = 'Mimoso') => {
+  console.log(name)
+}
+nomeDefault();
+const repeatFrase=(frase, range = 3)=>{
+  for (let i = 0; i <= range; i++){
+    console.log(`${frase} repetida`)
+
+  }
+}
+repeatFrase("itGest");
+
